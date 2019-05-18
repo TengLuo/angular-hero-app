@@ -1,4 +1,5 @@
 <h2>My Heroes</h2>
+<app-hero-detail [hero]="selectHero"></app-hero-detail>
 <ul class="heroes">
   <li *ngFor="let hero of heroes"
       [class.selected]="hero === selectHero"
@@ -6,5 +7,3 @@
         <span class="badge">{{hero.id}}</span> {{hero.name}}
   </li>
 </ul>
-
-<app-hero-detail [hero]="selectHero"></app-hero-detail>
