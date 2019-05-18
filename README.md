@@ -1,2 +1,2 @@
 # angular-hero-app
-angular tutorial
+angular tutorial hero app
